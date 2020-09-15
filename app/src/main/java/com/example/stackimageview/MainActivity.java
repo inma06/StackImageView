@@ -37,10 +37,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        // TODO: 주석달기
         stackImageView.setMaxVisibleImage(3);
         stackImageView.setImageGap(-20);
         stackImageView.setImageDimen(45);
-        stackImageView.setImageBorderWidth(0);
+        stackImageView.setImageBorderWidth(2);
         stackImageView.setImageBorderColor(R.color.white);
         stackImageView.setImageLoaderVisibility(true);
         stackImageView.setImageLoaderDimen(16);
@@ -51,17 +53,17 @@ public class MainActivity extends AppCompatActivity {
         stackImageView.setImageBackgroundColor(R.color.dark_cyan);
 
         stackImageView.setCountDimen(45);
-//        stackImageView.setCountBorderColor(R.color.colorPrimary);
+//        stackImageView.setCountBorderColor(R.color.white);
         stackImageView.setCountViewPosition(StackImageView.COUNT_POSITION_AFTER);
 //        stackImageView.setCountBgColor(R.color.light_white);
 //        stackImageView.setCountTextColor(#FFFFFFFF);
         stackImageView.setCountTextSize(20);
 
-//        stackImageView.setCountTextFont(R.font.sofia_regular);
-        stackImageView.setCountImageInsteadOfText(true);
+        stackImageView.setCountTextFont(R.font.lobster);
+        stackImageView.setCountImageInsteadOfText(false);
         stackImageView.setCountImageDimen(30);
-        stackImageView.setCountImageSource(R.drawable.ic_more_icon);
-        stackImageView.setOverlapType(StackImageView.TOP_TO_BOTTOM_OVERLAP);
+//        stackImageView.setCountImageSource(R.drawable.ic_more_icon);
+        stackImageView.setOverlapType(StackImageView.BOTTOM_TO_TOP_OVERLAP);
 
 
 
@@ -69,6 +71,12 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<Object> setImageResources() {
         ArrayList<Object> imageLists = new ArrayList<>();
+        imageLists.add(R.drawable.demo_face_1);
+        imageLists.add(R.drawable.demo_face_2);
+        imageLists.add(R.drawable.demo_face_3);
+        imageLists.add(R.drawable.demo_face_4);
+        imageLists.add(R.drawable.demo_face_5);
+        imageLists.add(R.drawable.demo_face_6);
         imageLists.add(R.drawable.demo_face_1);
         imageLists.add(R.drawable.demo_face_2);
         imageLists.add(R.drawable.demo_face_3);
