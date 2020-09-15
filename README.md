@@ -4,6 +4,11 @@
 <img src="https://github.com/inma06/StackImageView/blob/master/previewImage/demo.png?raw=true">
 
 
+# Demo
+
+<img src="https://github.com/inma06/StackImageView/blob/master/previewImage/demo.gif?raw=true">
+
+
 # License
 
 Copyright 2018 Kartik Prajapati
