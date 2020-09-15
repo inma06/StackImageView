@@ -6,7 +6,7 @@
 
 # Demo
 
-<img src="https://github.com/inma06/StackImageView/blob/master/previewImage/demo.gif?raw=true">
+<img width="480" src="https://github.com/inma06/StackImageView/blob/master/previewImage/demo.gif?raw=true">
 
 
 # License
