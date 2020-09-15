@@ -6,13 +6,62 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity"
+    android:padding="32dp"
     >
 
+    <!-- SIV is meaning stackImageView -->
     <app.com.stackimageview.customviews.StackImageView
         android:id="@+id/stackImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_setChange"
+        android:textSize="16dp"
+        android:text="Change More View"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_addImage"
+        android:textSize="16dp"
+        android:text="Add Image"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_removeImage"
+        android:textSize="16dp"
+        android:text="Remove Image"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_setMaxImage"
+            android:inputType="number"
+            android:layout_marginRight="16dp"
+            />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_setMaxImage"
+            android:textSize="16dp"
+            android:text="Max Images"/>
+
+    </LinearLayout>
+
 
 
 </LinearLayout>
